@@ -1,0 +1,20 @@
+services:
+  weather-api:
+    build: ./server
+    container_name: weather-api
+    env_file: .env
+    environment:
+      - TZ=${TZ:-UTC}
+    ports:
+      - "8787:8787"
+    restart: unless-stopped
+    networks:
+      - tronbyt
+
+# Join the Tronbyt server's network so Pixlet (running inside Tronbyt) can
+# reach this service at http://weather-api:8787. Find the name with
+# `docker network ls` and set TRONBYT_NETWORK in .env.
+networks:
+  tronbyt:
+    external: true
+    name: ${TRONBYT_NETWORK:-tronbyt_default}

@@ -1,0 +1,19 @@
+{
+  "name": "tronbyt-weather-api",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Weather API for the tronbyt-weather Pixlet app (ported from pi-weather-station)",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test",
+    "record-fixtures": "node scripts/record-fixtures.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.22.3"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "data": {
+    "timelines": [
+      {
+        "timestep": "1d",
+        "startTime": "2026-10-01T06:00:00-05:00",
+        "endTime": "2026-10-05T06:00:00-05:00",
+        "intervals": [
+          {
+            "startTime": "2026-10-01T06:00:00-05:00",
+            "values": {
+              "temperatureMax": 28,
+              "temperatureMin": 15,
+              "precipitationProbability": 0,
+              "weatherCode": 1000
+            }
+          },
+          {
+            "startTime": "2026-10-02T06:00:00-05:00",
+            "values": {
+              "temperatureMax": 27,
+              "temperatureMin": 14,
+              "precipitationProbability": 20,
+              "weatherCode": 4001
+            }
+          },
+          {
+            "startTime": "2026-10-03T06:00:00-05:00",
+            "values": {
+              "temperatureMax": 26,
+              "temperatureMin": 13,
+              "precipitationProbability": 40,
+              "weatherCode": 5000
+            }
+          },
+          {
+            "startTime": "2026-10-04T06:00:00-05:00",
+            "values": {
+              "temperatureMax": 25,
+              "temperatureMin": 12,
+              "precipitationProbability": 60,
+              "weatherCode": 8000
+            }
+          },
+          {
+            "startTime": "2026-10-05T06:00:00-05:00",
+            "values": {
+              "temperatureMax": 24,
+              "temperatureMin": 11,
+              "precipitationProbability": 80,
+              "weatherCode": 1001
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
